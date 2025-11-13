@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My E-commerce Store</h1>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/300x300.png?text=T-Shirt" alt="Stylish T-Shirt">
+        <h2>Stylish T-Shirt</h2>
+        <p class="description">A comfortable cotton t-shirt perfect for casual wear.</p>
+        <p class="price">Price: <span>₹499</span></p>
+        <button>Add to Cart</button>
+    </div>
+</body>
+</html>
