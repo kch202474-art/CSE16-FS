@@ -6,6 +6,31 @@
     <link rel="stylesheet" href="style.css">
     <title>Flexbox Level 4</title>
 </head>
+<style>
+
+.container {
+    display: flex;
+    height: 200px;
+    background: lightgray;
+    border: 2px solid #000;
+    margin-bottom: 40px;
+}
+
+.box {
+    padding: 20px;
+    background: dodgerblue;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+.level4 {
+    /* Try: flex-start, center, flex-end, stretch, baseline */
+    align-items: center;
+}
+
+</style>
 <body>
 
 <h2>Level 4: Vertical Alignment (align-items)</h2>
